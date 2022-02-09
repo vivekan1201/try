@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="130361" started-at="2022-02-09T10:34:10 IST" finished-at="2022-02-09T10:36:21 IST">
+    <groups>
+      <group name="regression">
+        <method signature="TestClass.CopWelleness()[pri:2, instance:RunTest.TestClass@18eed359]" name="CopWelleness" class="RunTest.TestClass"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestClass.getHospitalNames(java.lang.String)[pri:1, instance:RunTest.TestClass@18eed359]" name="getHospitalNames" class="RunTest.TestClass"/>
+        <method signature="TestClass.Diagnosticpage()[pri:3, instance:RunTest.TestClass@18eed359]" name="Diagnosticpage" class="RunTest.TestClass"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="130361" started-at="2022-02-09T10:34:10 IST" finished-at="2022-02-09T10:36:21 IST">
+      <class name="RunTest.TestClass">
+        <test-method status="PASS" signature="getHospitalNames(java.lang.String)[pri:1, instance:RunTest.TestClass@18eed359]" name="getHospitalNames" duration-ms="39100" started-at="2022-02-09T10:34:11 IST" finished-at="2022-02-09T10:34:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHospitalNames -->
+        <test-method status="PASS" signature="Diagnosticpage()[pri:3, instance:RunTest.TestClass@18eed359]" name="Diagnosticpage" duration-ms="6790" started-at="2022-02-09T10:34:50 IST" depends-on-methods="RunTest.TestClass.getHospitalNames" finished-at="2022-02-09T10:34:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diagnosticpage -->
+        <test-method status="PASS" signature="CopWelleness()[pri:2, instance:RunTest.TestClass@18eed359]" name="CopWelleness" duration-ms="84309" started-at="2022-02-09T10:34:57 IST" depends-on-methods="RunTest.TestClass.Diagnosticpage" finished-at="2022-02-09T10:36:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopWelleness -->
+      </class> <!-- RunTest.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+RunTest\TestClass.class
+com\AutomationScript\sample\BaseUI.class
+com\AutomationScript\Utils\ExtentReportManager.class
+RunTest\ExtentReport.class
+com\AutomationScript\sample\corperateWellness.class
+com\AutomationScript\sample\Automatetopcities.class
+com\AutomationScript\sample\AutomateFindHospitals.class
